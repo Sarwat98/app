@@ -3,7 +3,7 @@ kind: Service
 metadata:
   name: myapp-service
 spec:
-  type: ClusterIP  # For internal access (use LoadBalancer/NodePort for external)
+  type: ClusterIP  
   selector:
     app: myapp
   ports:
