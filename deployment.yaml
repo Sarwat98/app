@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: myapp
-        image: nginx:1.25-alpine  # Example image
+        image: nginx:1.25-alpine 
         ports:
         - containerPort: 80
         resources:
